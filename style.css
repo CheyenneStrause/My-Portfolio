@@ -1,0 +1,26 @@
+.myinfo {
+  position: relative;
+  top: 250px;
+  left: 80px;
+  width: 500px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+video {
+  position: absolute;
+  left: 00px;
+  bottom: 00px;
+  z-index: -2;
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
