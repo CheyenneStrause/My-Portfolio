@@ -10,18 +10,17 @@ h2 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-.nav-link {
-  color: white;
-}
 
-.nav-link:hover {
-  color: gray;
+a.nav-link {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
 }
 
 video {
-  position: absolute;
-  left: 00px;
-  bottom: 00px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
   z-index: -2;
   height: auto;
   width: auto;
