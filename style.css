@@ -1,19 +1,21 @@
 :root {
   --primary-color: #9b00ca;
-  --secondary-color: #f5f2fe;
+  --text-color: #f5f2fe;
+  --secondary-color: rgba(116, 39, 116, 0.342);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Vollkorn", serif;
 }
 
 body {
   margin-top: 100px;
+  background-color: black;
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
-  color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 h1 {
@@ -34,7 +36,28 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
 }
 
 .about-paragraphs {
@@ -78,7 +101,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--secondary-color);
+  color: var(--text-color);
   border: 3px solid var(--primary-color);
   background-color: rgba(0, 0, 0, 0.356);
 }
