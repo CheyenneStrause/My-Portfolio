@@ -62,12 +62,8 @@ p {
   font-size: 24px;
 }
 
-.about-paragraphs {
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
+.project-description {
+  padding: 20px 30px;
 }
 
 .navigation-links {
@@ -111,10 +107,18 @@ p {
     text-align: center;
   }
 
+  .hero {
+    padding: 80px 20px;
+  }
+
   .project-link {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+
+  .project-description {
+    padding: 0;
   }
 }
 
