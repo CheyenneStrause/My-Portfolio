@@ -40,6 +40,10 @@ p {
   color: var(--text-color);
 }
 
+.my-photo {
+  margin: auto;
+}
+
 .hero {
   background: var(--hero-background);
   text-align: center;
