@@ -6,6 +6,8 @@
   --heading-font-family: "Vollkorn", serif;
   --default-font-family: "Poppins", sans-serif;
   --link-font-family: "Poppins", sans-serif;
+  --contact-link-color: rgb(187, 131, 224);
+  --contact-hover-color: white;
 }
 
 body {
@@ -31,7 +33,6 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
 }
 
 p {
@@ -122,6 +123,16 @@ p {
 .primary-link:hover {
   color: var(--primary-color);
   background-color: #ffffffde;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--contact-link-color);
+}
+
+a:hover {
+  color: var(--contact-hover-color);
 }
 
 @media (max-width: 576px) {
