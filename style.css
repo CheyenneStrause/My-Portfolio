@@ -1,5 +1,6 @@
 :root {
   --primary-color: #542663;
+  --secondary-color: rgba(248, 246, 248, 0.144);
   --text-color: #f5f2fe;
   --hero-background: rgba(116, 39, 116, 0.342);
   --box-shadow: 0 5px 10px rgba(123, 104, 136, 0.541);
@@ -123,6 +124,34 @@ p {
 .primary-link:hover {
   color: var(--primary-color);
   background-color: #ffffffde;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--contact-link-color);
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--contact-hover-color);
+}
+
+footer .social-links a {
+  margin: 10px 10px;
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--contact-hover-color);
+  background: var(--primary-color);
 }
 
 a {
