@@ -18,8 +18,7 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   margin: 0;
   color: var(--text-color);
   font-family: var(--heading-font-family);
@@ -37,7 +36,7 @@ h3 {
   font-size: 24px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -54,7 +53,7 @@ p {
 .hero {
   background: var(--hero-background);
   text-align: center;
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .hero p {
@@ -73,7 +72,7 @@ p {
 }
 
 .content {
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 
 .content h1 {
@@ -146,6 +145,7 @@ footer .contact-box p {
 }
 
 footer .email-link {
+  margin-top: 30px;
   text-decoration: none;
   color: var(--contact-link-color);
   font-size: 24px;
@@ -157,6 +157,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 10px 10px;
+  margin-top: 20px;
   background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
@@ -190,7 +191,7 @@ a:hover {
     text-align: center;
   }
 
-  h4 {
+  h3 {
     font-size: 20px;
     text-align: center;
   }
