@@ -72,7 +72,8 @@ p {
 }
 
 .content {
-  padding: 120px 20px;
+  padding: 80px 40px;
+  margin: 0;
 }
 
 .content h1 {
@@ -93,9 +94,6 @@ p {
 
 .content p {
   font-size: 14px;
-}
-.content {
-  margin: 30px;
 }
 
 .project-description {
@@ -182,8 +180,9 @@ a:hover {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 48px;
+    font-size: 44px;
     line-height: 1.5;
+    text-align: center;
   }
 
   h2 {
@@ -217,6 +216,7 @@ a:hover {
 
   .project-description {
     padding: 0;
+    text-align: center;
   }
 }
 
