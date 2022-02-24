@@ -219,14 +219,3 @@ a:hover {
     text-align: center;
   }
 }
-
-video {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  z-index: -2;
-  height: auto;
-  width: auto;
-  min-width: 100%;
-  min-height: 100%;
-}
