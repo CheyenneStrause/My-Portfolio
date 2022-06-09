@@ -182,7 +182,7 @@ a:hover {
   color: var(--contact-hover-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 976px) {
   h1 {
     font-size: 44px;
     line-height: 1.5;
