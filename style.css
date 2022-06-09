@@ -50,6 +50,10 @@ p {
   margin: auto;
 }
 
+.project-photo {
+  margin-bottom: 40px;
+}
+
 .hero {
   background: var(--hero-background);
   text-align: center;
